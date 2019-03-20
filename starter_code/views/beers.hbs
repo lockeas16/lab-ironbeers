@@ -1,0 +1,9 @@
+<div class="index-container">
+  <div class="uk-grid-small uk-grid-match" uk-grid>
+    <div>
+      {{#each beers as |beer|}}
+      {{> beerCard beer}}
+      {{/each}}
+    </div>
+  </div>
+</div>
